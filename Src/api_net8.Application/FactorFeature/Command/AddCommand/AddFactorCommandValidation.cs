@@ -1,0 +1,25 @@
+﻿using FluentValidation;
+using MediatR;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Src.api_net8.Application.FactorFeature.Command.AddCommand
+{
+    public class AddFactorCommandValidation : AbstractValidator<AddFactorCommand>
+    {
+        public AddFactorCommandValidation()
+        {
+            RuleFor(x => x.Customer)
+                .NotEmpty().WithMessage("نام مشتری اجباری است.")
+                .MaximumLength(50).WithMessage("نام مشتری نباید بیشتر از 50 کاراکتر باشد.");
+
+            RuleFor(x => x.DelivaryType)
+                .NotEmpty().WithMessage("نوع ارسال اجباری است.")
+                .IsInEnum().WithMessage("باید عددی از 1 تا 3 انتخاب شود");
+
+        }
+    }
+}
