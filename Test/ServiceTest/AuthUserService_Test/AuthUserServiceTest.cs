@@ -1,6 +1,7 @@
 ﻿using api.net.Data;
 using api.net.Dto.AuthDto;
 using api.net.Services.AuthUser;
+using Castle.Core.Configuration;
 using dotnet_rpg.Dtos.User;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
