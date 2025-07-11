@@ -1,16 +1,16 @@
-﻿using AutoMapper;
+﻿using api_.net9.Common.Dto;
+using api_net9.Application.Context;
+using api_net9.Domain.Models;
+using AutoMapper;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using Src.api_.net8.Common.Dto;
-using Src.api_net8.Application.Context;
-using Src.api_net8.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Src.api_net8.Application.ProductFeature.Command
+namespace api_net9.Application.ProductFeature.Command
 {
     public class AddProductCommandHandler : IRequestHandler<AddProductCommand, ServiceResponseDto<string>>
     {

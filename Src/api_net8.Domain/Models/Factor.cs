@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Src.api_net8.Domain.Models;
+namespace api_net9.Domain.Models;
 
 public partial class Factor
 {

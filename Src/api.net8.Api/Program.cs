@@ -1,14 +1,12 @@
-using Src.api_net8.Application;
-using Src.api_.net8.Common.Enum;
-using Src.api_net8.Application.ProductFeature.Queries.GetAllProduct;
 using MediatR;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
-using Src.api.net8.Api.Loging;
-using Src.api.net8.Api.Middleware;
-using Src.api_net8.Application.Context;
-using Src.api_net8.Application.ProductFeature.Queries.FindProduct;
-using Src.api_net8.Infrastructure.context;
+using api_net9.Loging;
+using api_net9.Middleware;
+using api_net9.Application;
+using api_net9.Application.ProductFeature.Queries.FindProduct;
+using api_net9.Application.Context;
+using api_net9.Infrastructure.context;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddApplication();

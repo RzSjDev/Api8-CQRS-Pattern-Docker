@@ -3,17 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api_net8", "api_net8.csproj", "{176A81BB-CBA4-44E3-A0C6-0D672D386812}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api_net9", "api_net9.csproj", "{176A81BB-CBA4-44E3-A0C6-0D672D386812}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api_.net8.Common", "..\api_.net8.Common\api_.net8.Common.csproj", "{193DB095-E4CB-420B-830E-B214BB3B1F64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api_.net9.Common", "..\api_.net8.Common\api_.net9.Common.csproj", "{193DB095-E4CB-420B-830E-B214BB3B1F64}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api_net8.Application", "..\api_net8.Application\api_net8.Application.csproj", "{D3F31489-1544-4360-888E-1E0DA40BA8E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api_net9.Application", "..\api_net8.Application\api_net9.Application.csproj", "{D3F31489-1544-4360-888E-1E0DA40BA8E1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api_net8.Domain", "..\api_net8.Domain\api_net8.Domain.csproj", "{B515B017-23EA-413E-9E3F-B3B1D1AAFD4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api_net9.Domain", "..\api_net8.Domain\api_net9.Domain.csproj", "{B515B017-23EA-413E-9E3F-B3B1D1AAFD4E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api_net8.Infrastructure", "..\api_net8.Infrastructure\api_net8.Infrastructure.csproj", "{428DEE36-1DA4-4A52-B180-52B284950379}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApi", "..\TestApi\TestApi.csproj", "{F4293DBB-7C73-4EFA-8BF2-EBDBB90132AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api_net9.Infrastructure", "..\api_net8.Infrastructure\api_net9.Infrastructure.csproj", "{428DEE36-1DA4-4A52-B180-52B284950379}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +39,6 @@ Global
 		{428DEE36-1DA4-4A52-B180-52B284950379}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{428DEE36-1DA4-4A52-B180-52B284950379}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{428DEE36-1DA4-4A52-B180-52B284950379}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F4293DBB-7C73-4EFA-8BF2-EBDBB90132AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F4293DBB-7C73-4EFA-8BF2-EBDBB90132AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F4293DBB-7C73-4EFA-8BF2-EBDBB90132AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F4293DBB-7C73-4EFA-8BF2-EBDBB90132AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

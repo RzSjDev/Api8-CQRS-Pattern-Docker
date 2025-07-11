@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Src.api_net8.Application.FactorFeature.Command.EditCommand
+namespace api_net9.Application.FactorFeature.Command.EditCommand
 {
     public class EditFactorCommandValidation : AbstractValidator<EditFactorCommand>
     {

@@ -1,16 +1,16 @@
-﻿using FluentValidation;
+﻿using api_net9.Application.Behaviors;
+using api_net9.Application.FactorDetailFeature.Command.AddCommand;
+using api_net9.Application.FactorDetailFeature.Command.EditCommand;
+using api_net9.Application.FactorFeature.Command.AddCommand;
+using api_net9.Application.FactorFeature.Command.EditCommand;
+using api_net9.Application.ProductFeature.Command;
+using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
-using Src.api_net8.Application.Behaviors;
-using Src.api_net8.Application.FactorDetailFeature.Command.AddCommand;
-using Src.api_net8.Application.FactorDetailFeature.Command.EditCommand;
-using Src.api_net8.Application.FactorFeature.Command.AddCommand;
-using Src.api_net8.Application.FactorFeature.Command.EditCommand;
-using Src.api_net8.Application.ProductFeature.Command;
 using System.Reflection;
 
 
-namespace Src.api_net8.Application
+namespace api_net9.Application
 {
     public static class ConfigureServices
     {

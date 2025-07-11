@@ -1,15 +1,15 @@
-﻿using AutoMapper;
+﻿using api_.net9.Common.Dto;
+using api_net9.Application.Context;
+using api_net9.Domain.Models;
+using AutoMapper;
 using MediatR;
-using Src.api_.net8.Common.Dto;
-using Src.api_net8.Application.Context;
-using Src.api_net8.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Src.api_net8.Application.FactorFeature.Command.AddCommand
+namespace api_net9.Application.FactorFeature.Command.AddCommand
 {
     public class AddFactorCommandHandler : IRequestHandler<AddFactorCommand, ServiceResponseDto<int>>
     {

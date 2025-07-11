@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace Src.api.net8.Api.Loging
+namespace api_net9.Loging
 {
     public class ExceptionHandlingBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
      where TRequest : IRequest<TResponse>

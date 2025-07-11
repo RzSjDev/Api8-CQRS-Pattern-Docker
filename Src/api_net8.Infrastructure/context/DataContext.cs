@@ -1,9 +1,9 @@
+using api_net9.Application.Context;
+using api_net9.Domain.Models;
 using Microsoft.EntityFrameworkCore;
-using Src.api_net8.Application.Context;
-using Src.api_net8.Domain.Models;
 using System.Data;
 
-namespace Src.api_net8.Infrastructure.context
+namespace api_net9.Infrastructure.context
 {
     public class DataContext : DbContext, IDataContext
     {

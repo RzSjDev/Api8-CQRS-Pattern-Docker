@@ -3,7 +3,7 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Src.api_.net8.Common.Dto
+namespace api_.net9.Common.Dto
 {
     public class ServiceResponseDto<T>
     {

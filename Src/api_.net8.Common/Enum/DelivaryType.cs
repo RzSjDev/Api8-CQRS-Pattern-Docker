@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Src.api_.net8.Common.Enum
+namespace api_.net9.Common.Enum
 {
     public enum DelivaryType : byte
     {

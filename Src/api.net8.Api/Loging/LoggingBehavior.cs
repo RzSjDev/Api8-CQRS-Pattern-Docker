@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using System.Diagnostics;
 
-namespace Src.api.net8.Api.Loging
+namespace api_net9.Loging
 {
     public class LoggingBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
     where TRequest : IRequest<TResponse>

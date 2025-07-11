@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Src.api_net8.Application.ProductFeature.Command
+namespace api_net9.Application.ProductFeature.Command
 {
     public class AddProductCommandValidation : AbstractValidator<AddProductCommand>
     {

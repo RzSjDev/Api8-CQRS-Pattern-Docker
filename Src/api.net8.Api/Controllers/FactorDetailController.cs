@@ -1,15 +1,10 @@
-﻿using Src.api_net8.Application.FactorFeature.Command.AddCommand;
-using Src.api_net8.Application.FactorFeature.Command.EditCommand;
-using Src.api_net8.Application.ProductFeature.Command;
-using Src.api_net8.Application.ProductFeature.Queries.FindProduct;
-using Src.api_net8.Application.ProductFeature.Queries.GetAllProduct;
-using Azure;
+﻿using Azure;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Src.api_net8.Application.FactorDetailFeature.Command.AddCommand;
-using Src.api_net8.Application.FactorDetailFeature.Command.EditCommand;
+using api_net9.Application.FactorDetailFeature.Command.AddCommand;
+using api_net9.Application.FactorDetailFeature.Command.EditCommand;
 
-namespace Src.api.net8.Api.Controllers
+namespace api_net9.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

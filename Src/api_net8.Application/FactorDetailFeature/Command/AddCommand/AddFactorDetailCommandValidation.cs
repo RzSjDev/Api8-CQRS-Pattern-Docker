@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Src.api_net8.Application.FactorDetailFeature.Command.AddCommand
+namespace api_net9.Application.FactorDetailFeature.Command.AddCommand
 {
     public class AddFactorDetailCommandValidation : AbstractValidator<AddFactorDetailCommand>
     {

@@ -1,11 +1,11 @@
-﻿using Src.api_net8.Application.ProductFeature.Queries.FindProduct;
-using Src.api_net8.Application.ProductFeature.Queries.GetAllProduct;
-using Azure;
+﻿using Azure;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Src.api_net8.Application.ProductFeature.Command;
+using api_net9.Application.ProductFeature.Command;
+using api_net9.Application.ProductFeature.Queries.GetAllProduct;
+using api_net9.Application.ProductFeature.Queries.FindProduct;
 
-namespace Src.api.net8.Api.Controllers
+namespace api_net9.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

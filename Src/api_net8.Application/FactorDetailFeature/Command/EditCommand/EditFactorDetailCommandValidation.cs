@@ -1,13 +1,13 @@
-﻿using FluentValidation;
+﻿using api_net9.Application.FactorDetailFeature.Command.AddCommand;
+using FluentValidation;
 using MediatR;
-using Src.api_net8.Application.FactorDetailFeature.Command.AddCommand;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Src.api_net8.Application.FactorDetailFeature.Command.EditCommand
+namespace api_net9.Application.FactorDetailFeature.Command.EditCommand
 {
     public class EditFactorDetailCommandValidation : AbstractValidator<AddFactorDetailCommand>
     {

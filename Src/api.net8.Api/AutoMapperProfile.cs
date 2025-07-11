@@ -1,15 +1,14 @@
-using Src.api_net8.Application.FactorDetailFeature.Command.AddCommand;
-using Src.api_net8.Application.FactorDetailFeature.Command.EditCommand;
-using Src.api_net8.Application.FactorFeature.Command.AddCommand;
-using Src.api_net8.Application.FactorFeature.Command.EditCommand;
-using Src.api_net8.Application.ProductFeature.Command;
-using Src.api_net8.Application.ProductFeature.Queries.FindProduct;
-using Src.api_net8.Application.ProductFeature.Queries.GetAllProduct;
-using Src.api_net8.Domain.Models;
 using AutoMapper;
-using Src.api_net8.Application.FactorDetailFeature.Command.AddCommand;
+using api_net9.Application.FactorFeature.Command.EditCommand;
+using api_net9.Application.FactorFeature.Command.AddCommand;
+using api_net9.Application.ProductFeature.Command;
+using api_net9.Application.FactorDetailFeature.Command.AddCommand;
+using api_net9.Application.ProductFeature.Queries.GetAllProduct;
+using api_net9.Application.ProductFeature.Queries.FindProduct;
+using api_net9.Application.FactorDetailFeature.Command.EditCommand;
+using api_net9.Domain.Models;
 
-namespace api.net
+namespace api_net9
 {
     public class AutoMapperProfile : Profile
     {

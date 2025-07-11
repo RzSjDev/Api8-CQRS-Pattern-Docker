@@ -1,15 +1,15 @@
-﻿using AutoMapper;
+﻿using api_.net9.Common.Dto;
+using api_net9.Application.Context;
+using AutoMapper;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using Src.api_.net8.Common.Dto;
-using Src.api_net8.Application.Context;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Src.api_net8.Application.FactorFeature.Command.EditCommand
+namespace api_net9.Application.FactorFeature.Command.EditCommand
 {
     public class EditFactorCommandHandler : IRequestHandler<EditFactorWithIdCommand, ServiceResponseDto<int>>
     {

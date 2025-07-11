@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace Src.api.net8.Api.Middleware
+namespace api_net9.Middleware
 {
     public class ExceptionMiddleware
     {
