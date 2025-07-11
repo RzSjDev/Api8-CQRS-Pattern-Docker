@@ -39,7 +39,7 @@ Edit
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/RzSjDev/Api8-CQRS-Pattern.git
+   git clone https://github.com/RzSjDev/Api9-CQRS-Pattern.git
 Open the solution in Visual Studio 2022 or later.
 
 Configure your SQL Server connection string in appsettings.json.
